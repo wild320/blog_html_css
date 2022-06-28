@@ -1,0 +1,23 @@
+header .header__icons-container .icons{   
+    margin-right: 0 auto;
+}
+
+nav .nav__logo-container{
+    margin: 0 auto;
+}
+nav .nav__logo-container a img{
+    width: 100px;
+    height: auto;
+}
+
+.home__main section{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 150px;
+    margin-bottom: 80px;
+}
+
+.home__main-text{
+    font-size: 30px;;
+}
