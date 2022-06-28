@@ -99,7 +99,7 @@ nav .profile__link a{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url(https://drive.google.com/file/d/1VM2dJmfbgJhNKfCsn91PEiKpTDOMcbG4/view?usp=sharing);    
+    background-image: url(/assets/img/Cover.png);    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
