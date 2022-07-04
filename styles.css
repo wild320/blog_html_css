@@ -219,6 +219,7 @@ nav .profile__link a{
 .post__descripcion{    
     font-size: 1.4rem;
     margin-bottom: 25px;
+    color: rgb(47, 46, 46);
 }
 
 footer{
@@ -231,5 +232,46 @@ footer{
 footer p{
     font-family: 'Exo';
     color: #e6e9ed;
-    text-align: center;    
+    text-align: center;
+    letter-spacing: 0.5rem;    
+}
+
+.profile__main-container{
+    width: 100%;
+    background-color: #e6e9ed;
+}
+.profile__main-personal{
+    display: flex;
+    padding: 50px 30px;
+}
+.profile__main-personal div{
+    width: 49.5%;
+    margin: auto;
+}
+
+.profile__main-img img{    
+    width: 90%;
+    border-radius: 60px 0 60px 0;
+}
+.profile__tittle{    
+    font-family: 'Exo';
+    font-size: 2.4rem;
+}
+.profile__description{
+    font-size: 1.4rem;
+}
+
+
+.project__container{
+    display: inline-block;
+    max-width: 30%;
+    margin: 0 10px 40px 10px;
+    padding-bottom: 20px;
+
+}
+
+.project__container img{   
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+
 }

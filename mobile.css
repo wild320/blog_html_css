@@ -65,3 +65,26 @@ footer {
     min-width: 320px;
     max-width: 420px;
 }
+
+.profile__main-personal{
+    display: flex;
+    flex-direction: column;
+}
+.profile__main-personal div {
+    width: 90%;
+    margin: auto;
+}
+.profile__main-img img{    
+    width: 100%;
+    border-radius: 20px 0 20px 0;
+}
+
+.projects__main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.project__container{
+    max-width: 90%;    
+    align-self: center;
+}
