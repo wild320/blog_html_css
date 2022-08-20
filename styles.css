@@ -7,6 +7,20 @@ body {
 html{
     font-size: 62.5%;    
     font-family: 'roboto','exo',monospace;
+    
+    --df-messenger-bot-message: #fff;
+    --df-messenger-button-titlebar-color: #3d8823;
+    --df-messenger-button-titlebar-font-color: #fff;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: rgb(0 0 0 / 87%);
+    --df-messenger-input-box-color: #fff;
+    --df-messenger-input-font-color: rgba(0,0,0,.87);
+    --df-messenger-input-placeholder-font-color: #757575;
+    --df-messenger-minimized-chat-close-icon-color: rgba(0,0,0,.87);
+    --df-messenger-send-icon: #125e08;
+    --df-messenger-user-message: #7ae9c7;
+    --df-messenger-chip-color: #f5a95ea1;
+    --df-messenger-chip-border-color: #e0e0e0;
 }
 a {
     text-decoration: none;
@@ -14,7 +28,7 @@ a {
     color: black;
 }
 
- df-messenger {
+ .df-messenger {
    --df-messenger-bot-message: #878fac;
    --df-messenger-button-titlebar-color: #df9b56;
    --df-messenger-chat-background-color: #fafafa;
